@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vinay Bilodiya — Full-Stack &amp; AI Developer</title>
+  <meta name="description" content="Vinay Bilodiya — Computer Science student building full-stack web, Android and AI-powered applications.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22 fill=%22%235B8DEF%22>V</text></svg>">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript>
+</head>
+<body>
+
+  <!-- ===================== NAV ===================== -->
+  <header class="nav-wrap" id="navWrap">
+    <nav class="nav container">
+      <a href="#top" class="nav-logo" aria-label="Back to top">VB<span class="dot">.</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="Vinay_Bilodiya_Resume.pdf" class="btn btn-ghost nav-resume" download>Resume</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero container" id="hero">
+      <div class="hero-text">
+        <p class="eyebrow">Full-stack &amp; AI Developer — Vadodara, India</p>
+        <h1 class="hero-title">
+          I turn raw data<br>
+          into <span class="hl">software people<br> can actually use.</span>
+        </h1>
+        <p class="hero-sub">
+          Computer Science student building web, Android and AI-powered
+          applications — from real-time price comparisons to live speech
+          translation. I like taking something messy or hard to parse and
+          shipping the clear, usable version of it.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Get in Touch</a>
+        </div>
+        <div class="hero-meta">
+          <a href="https://github.com/VinayBilodiya2005" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/vinay-bilodiya-84720426b/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 420 420" class="signal-svg" id="heroSignal">
+          <defs>
+            <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0%" stop-color="#5B8DEF"/>
+              <stop offset="100%" stop-color="#FFB84D"/>
+            </linearGradient>
+          </defs>
+          <path id="signalPath" d="M40,320 C120,320 90,180 170,180 C230,180 200,90 280,90 C320,90 320,60 380,60"
+                fill="none" stroke="url(#lineGrad)" stroke-width="2" stroke-linecap="round" stroke-dasharray="6 10"/>
+          <circle cx="40" cy="320" r="7" fill="#5B8DEF"/>
+          <circle cx="380" cy="60" r="7" fill="#FFB84D"/>
+          <circle id="signalDot" cx="40" cy="320" r="5" fill="#EDEFF4"/>
+          <text x="14" y="345" class="signal-label">input</text>
+          <text x="335" y="45" class="signal-label">output</text>
+        </svg>
+        <div class="hero-badge">
+          <span class="hero-badge-value">9.55</span>
+          <span class="hero-badge-label">CGPA / 10<br>Diploma, Computer Engineering</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="wave-divider" aria-hidden="true"><svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path d="M0,20 Q150,0 300,20 T600,20 T900,20 T1200,20" fill="none" stroke="currentColor" stroke-width="1"/></svg></div>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="section" id="about">
+      <div class="container about-grid">
+        <div class="about-photo-wrap reveal">
+          <img src="profile.jpg" alt="Portrait of Vinay Bilodiya" class="about-photo" loading="lazy">
+          <div class="about-photo-ring" aria-hidden="true"></div>
+        </div>
+
+        <div class="about-content reveal">
+          <p class="section-eyebrow">01 · About</p>
+          <h2 class="section-title">Building the bridge between an idea and something you can click on.</h2>
+          <p class="about-text">
+            I'm Vinay, a Computer Science Engineering student at Parul University with a
+            9.55/10 CGPA and a habit of shipping projects that pull real data from real
+            places — live grocery prices, spoken language, a student's messy notes — and
+            turn them into something simple to use. I've interned in Android development
+            and digital marketing, and I currently run day-to-day operations for my
+            university's Alumni Association Cell.
+          </p>
+          <p class="about-text">
+            Outside of code, I'm a national-level U-14 volleyball player and the cultural
+            event coordinator for my campus — so I'm just as comfortable coordinating a
+            team as I am debugging one.
+          </p>
+
+          <dl class="about-facts">
+            <div><dt>Location</dt><dd>Vadodara, Gujarat, India</dd></div>
+            <div><dt>Education</dt><dd>B.Tech CSE, Parul University</dd></div>
+            <div><dt>Languages</dt><dd>English, Hindi</dd></div>
+            <div><dt>Currently</dt><dd>Operations Executive, Parul University</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SKILLS ===================== -->
+    <section class="section section-alt" id="skills">
+      <div class="container">
+        <p class="section-eyebrow">02 · Skills</p>
+        <h2 class="section-title">What I build with.</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>Web Development</h3>
+            <p>Next.js, React, TypeScript, Tailwind CSS, ShadCN UI</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Android Development</h3>
+            <p>Java, Kotlin, Android Studio, Material Design</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>AI &amp; ML Tools</h3>
+            <p>Google Genkit, Google Gemini AI, ML Kit, Speech Recognition API</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Firebase &amp; Cloud</h3>
+            <p>Firebase Auth &amp; Realtime services, cloud integrations</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Problem-Solving</h3>
+            <p>Debugging, testing and agile delivery workflows</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Communication &amp; Teamwork</h3>
+            <p>Cross-functional collaboration, leadership &amp; coordination</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EXPERIENCE ===================== -->
+    <section class="section" id="experience">
+      <div class="container">
+        <p class="section-eyebrow">03 · Experience</p>
+        <h2 class="section-title">Where I've worked.</h2>
+
+        <ol class="timeline">
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Feb 2026 — Present</span>
+              <h3>Operations Executive <span class="timeline-org">· Parul University</span></h3>
+              <ul>
+                <li>Manage daily operations and administrative tasks in the Alumni Association Cell.</li>
+                <li>Assist in placement &amp; development-cell work, including document verification and student career counseling.</li>
+                <li>Coordinate across students, alumni and departments for smooth communication and engagement.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">May 2025 — Aug 2025</span>
+              <h3>Digital Marketing Intern <span class="timeline-org">· Gururo</span></h3>
+              <ul>
+                <li>Created and managed content for digital platforms, applying SEO strategies to improve visibility.</li>
+                <li>Analyzed campaign performance with analytics tools to support data-driven decisions.</li>
+                <li>Collaborated in a fast-paced startup environment, sharpening adaptability and teamwork.</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">May 2025 — Jun 2025</span>
+              <h3>Android Developer <span class="timeline-org">· Brainy Beam</span></h3>
+              <ul>
+                <li>Built and maintained Android applications using Java/Kotlin and Android Studio.</li>
+                <li>Designed and implemented UI/UX components for user-friendly mobile experiences.</li>
+                <li>Worked with agile practices, improving debugging, testing and deployment workflows.</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <p class="section-eyebrow">04 · Projects</p>
+        <h2 class="section-title">Things I've shipped.</h2>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+            <div class="project-index">01</div>
+            <h3>CartWise</h3>
+            <p class="project-tagline">Real-time grocery price comparison</p>
+            <p class="project-desc">
+              Full-stack web app that pulls live prices from Blinkit, JioMart, Zepto,
+              BigBasket and Instamart, then uses an AI recommendation engine to suggest
+              complementary products — with a responsive UI built for shopping on any device.
+            </p>
+            <div class="project-tags">
+              <span>Next.js</span><span>React</span><span>Tailwind CSS</span>
+              <span>ShadCN UI</span><span>TypeScript</span><span>Google Genkit AI</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">02</div>
+            <h3>ClassmateAI</h3>
+            <p class="project-tagline">AI-powered interactive learning assistant</p>
+            <p class="project-desc">
+              Educational web app for students and teachers with lesson summarization,
+              Q&amp;A and image analysis, wrapped in a modular UI with a collapsible
+              sidebar, toast notifications and clean dashboards.
+            </p>
+            <div class="project-tags">
+              <span>Next.js</span><span>React</span><span>Tailwind</span>
+              <span>ShadCN UI</span><span>Genkit</span><span>Google Gemini AI</span>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-index">03</div>
+            <h3>Language Translator</h3>
+            <p class="project-tagline">Android speech translation app</p>
+            <p class="project-desc">
+              Mobile app enabling real-time speech-to-text translation across multiple
+              languages, backed by Firebase and Google ML Kit, with a simple, interactive
+              Material Design interface.
+            </p>
+            <div class="project-tags">
+              <span>Java</span><span>Android SDK</span><span>Google ML Kit</span>
+              <span>Speech Recognition API</span><span>Firebase</span>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="projects-footer reveal">
+          <a href="https://github.com/VinayBilodiya2005" target="_blank" rel="noopener" class="btn btn-outline">
+            See more on GitHub ↗
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== EDUCATION ===================== -->
+    <section class="section" id="education">
+      <div class="container">
+        <p class="section-eyebrow">05 · Education</p>
+        <h2 class="section-title">Academic record.</h2>
+
+        <div class="edu-grid">
+          <div class="edu-card reveal">
+            <span class="edu-date">2026 — 2029</span>
+            <h3>B.Tech, Computer Science Engineering</h3>
+            <p>Parul Institute of Engineering &amp; Technology, Parul University</p>
+          </div>
+          <div class="edu-card reveal">
+            <span class="edu-date">2023 — 2026</span>
+            <h3>Diploma, Computer Engineering</h3>
+            <p>Parul Institute of Engineering &amp; Technology, Parul University</p>
+            <span class="edu-cgpa">CGPA 9.55 / 10</span>
+          </div>
+        </div>
+
+        <div class="cert-block reveal">
+          <h3 class="cert-heading">Certifications &amp; Achievements</h3>
+          <div class="cert-tags">
+            <span>Cisco Networking Academy</span>
+            <span>HP Life</span>
+            <span>Forage</span>
+            <span>Intel Unnati</span>
+            <span>Hackathons</span>
+            <span>National-level Volleyball Player (U-14)</span>
+            <span>Cultural Event Coordinator, Parul University</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <section class="section section-alt" id="contact">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="section-eyebrow">06 · Contact</p>
+          <h2 class="section-title">Let's build something.</h2>
+          <p class="about-text">
+            Open to internships, collaborations and interesting problems. The
+            fastest way to reach me is email — I'll get back to you quickly.
+          </p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-label">Email</span>
+              <a href="mailto:vinaybilodiya1503@gmail.com">vinaybilodiya1503@gmail.com</a>
+            </li>
+            <li>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+917227847391">+91 72278 47391</a>
+            </li>
+            <li>
+              <span class="contact-label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/vinay-bilodiya-84720426b/" target="_blank" rel="noopener">vinay-bilodiya-84720426b</a>
+            </li>
+            <li>
+              <span class="contact-label">GitHub</span>
+              <a href="https://github.com/VinayBilodiya2005" target="_blank" rel="noopener">VinayBilodiya2005</a>
+            </li>
+            <li>
+              <span class="contact-label">Based in</span>
+              <span>Vadodara, Gujarat, India</span>
+            </li>
+          </ul>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required autocomplete="name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#top" class="nav-logo">VB<span class="dot">.</span></a>
+      <p>&copy; <span id="year"></span> Vinay Bilodiya. Built with HTML, CSS &amp; JavaScript.</p>
+      <div class="footer-links">
+        <a href="https://github.com/VinayBilodiya2005" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/vinay-bilodiya-84720426b/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:vinaybilodiya1503@gmail.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
